@@ -1,0 +1,82 @@
+html,body{
+    margin: 0px;
+    margin-right: 0%;
+    margin-left: 0%;
+    background-color: rgb(41, 134, 240);
+   
+}
+
+.container {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(34, 33, 65);
+}
+
+.card   {
+    border-style: stroke;
+    border-width: 3px;
+    border-radius: 36px;
+    border-color: rgba(245, 3, 3, 0.3);
+    box-sizing: content-box;
+    background-color: rgba(245, 188, 115, 0.911);
+    opacity: 90%;
+    min-width: 30%;
+    min-height: 30%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 15px 15px crimson;
+}
+
+.card h1{
+    padding: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    word-break: break-all;
+    font-weight: bold;
+    font-style: inherit;
+    text-align: center;
+    text-shadow: 1.5px 1.5px cornflowerblue;
+    color:navy;
+      
+}
+
+.card input{
+    padding: .25px;
+    margin: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-bottom: 3px crimson;
+    border-radius: 18px;
+    box-sizing: border-box;
+    color: firebrick;
+    width: 25%;
+    height: 15%;
+    text-align: center;
+    font-family: Roboto, arial, sans-serif;
+    font-variant: small-caps;
+    font-size: 12px;   
+}
+.card input:hover{
+    cursor: pointer;
+    color: darkblue;
+    font-variant: normal;
+
+}
+
+#forgot{
+    padding: 6px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    color: blue;
+    cursor: pointer;
+}
+#forgot:hover{
+    cursor: pointer;
+    color: crimson;
+}
